@@ -350,79 +350,6 @@ header .menu li:nth-of-type(2) .menuNum {
     opacity: 0;
 }
 
-/*
-
-.hoverme:hover i:nth-of-type(41) {
-    transform: translate3d(-44px, -61px, 0) rotate(292deg);
-    background: white;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-
-.hoverme:hover i:nth-of-type(42) {
-    transform: translate3d(21px, -53px, 0) rotate(355deg);
-    background: white;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-
-.hoverme:hover i:nth-of-type(43) {
-    transform: translate3d(2px, -94px, 0) rotate(188deg);
-    background: #808080;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-
-.hoverme:hover i:nth-of-type(44) {
-    transform: translate3d(77px, -70px, 0) rotate(345deg);
-    background: #FAE74C;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-
-.hoverme:hover i:nth-of-type(45) {
-    transform: translate3d(-8px, -50px, 0) rotate(89deg);
-    background: #808080;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-
-.hoverme:hover i:nth-of-type(46) {
-    transform: translate3d(57px, -90px, 0) rotate(295deg);
-    background: white;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-
-.hoverme:hover i:nth-of-type(47) {
-    transform: translate3d(-43px, -52px, 0) rotate(290deg);
-    background: #FAE74C;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-
-.hoverme:hover i:nth-of-type(48) {
-    transform: translate3d(-34px, -71px, 0) rotate(60deg);
-    background: #808080;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-
-.hoverme:hover i:nth-of-type(49) {
-    transform: translate3d(-17px, -71px, 0) rotate(113deg);
-    background: #FAE74C;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-
-.hoverme:hover i:nth-of-type(50) {
-    transform: translate3d(39px, -74px, 0) rotate(281deg);
-    background: white;
-    animation: bang 700ms ease-out forwards;
-    opacity: 1;
-}
-*/
-
 .owl-carousel {
     margin: 2.5vw 0 0;
     background-image: linear-gradient(90deg, transparent 20%, black 60%);
@@ -527,8 +454,9 @@ header .menu li:nth-of-type(2) .menuNum {
     z-index: 2;
     right: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-color: #FAE74C;
 }
 
@@ -601,7 +529,6 @@ header .menu li:nth-of-type(2) .menuNum {
     }
 
     .owl-carousel.owl-drag .owl-item {
-        /*        height: 383px !important;*/
         padding: 0vw 0vw 0 3.4vw;
     }
 

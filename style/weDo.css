@@ -39,7 +39,6 @@ header .menu li:nth-of-type(3) .menuNum {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    /*    width: 27.3vw;*/
     height: 37.4vw;
     padding: 4vw 0;
     transition: all 1s;
@@ -136,14 +135,6 @@ header .menu li:nth-of-type(3) .menuNum {
     animation-iteration-count: 1;
 }
 
-/*
-
-.slide2T .sliderInfo {
-    padding-left: 1vw;
-    width: 85%;
-}
-*/
-
 .slide3,
 .slideImgBox {
     width: 100%;
@@ -237,7 +228,7 @@ header .menu li:nth-of-type(3) .menuNum {
 .slide61 {
     height: 9vw;
     width: 9vw;
-        top: 0.3vw;
+    top: 0.3vw;
     animation-delay: 0.3s;
     animation-fill-mode: both;
     transition: all 1s;
@@ -327,16 +318,6 @@ header .menu li:nth-of-type(3) .menuNum {
     opacity: 1;
     animation: rotate 6s ease-in-out infinite;
 }
-
-
-/*
-
-.sliderL .sliderInfo {
-    width: 90%;
-}
-*/
-
-
 
 .owl-carousel.owl-drag .owl-item {
     transform: scale(0.8);
@@ -446,44 +427,6 @@ header .menu li:nth-of-type(3) .menuNum {
     justify-content: space-between;
 }
 
-/*
-.casses {
-    color: white;
-    background-image: url(../img/Group.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 11.7%;
-    padding: 3vw 3.7vw 5.2vw 2.6vw;
-    line-height: 1.5;
-    position: absolute;
-    font-size: 0.9vw;
-    right: 3%;
-    z-index: 2;
-}
-
-.casses a {
-    color: white;
-    text-decoration: none;
-}
-
-.casses a:hover,
-.casses a:active {
-    color: white;
-}
-
-.casses p {
-    text-decoration: underline solid #FCEF4F;
-    -webkit-text-decoration: underline solid #FCEF4F;
-    text-underline-position: under;
-}
-
-.casses p span {
-    font-weight: bold;
-}
-*/
 
 @media all and (max-width:1024px) {
     .xAnimate {
@@ -496,7 +439,7 @@ header .menu li:nth-of-type(3) .menuNum {
     }
 
     .mainText {
-            padding: 4vw 5vw 10vw;
+        padding: 4vw 5vw 10vw;
         align-items: center;
     }
 
@@ -552,8 +495,8 @@ header .menu li:nth-of-type(3) .menuNum {
     }
 
     .slide5 {
-            width: 55%;
-    height: 100%;
+        width: 55%;
+        height: 100%;
 
     }
 
@@ -564,11 +507,14 @@ header .menu li:nth-of-type(3) .menuNum {
     .pulse .slide6 {
         width: 32.1%;
     }
-    .slide61,.slide62,.slide63 {
-    height: 21vw;
-    width: 21vw;
-    top: 2.3vw;
-}
+
+    .slide61,
+    .slide62,
+    .slide63 {
+        height: 21vw;
+        width: 21vw;
+        top: 2.3vw;
+    }
 
     .slider .sliderText {
         width: 80%;
@@ -600,19 +546,6 @@ header .menu li:nth-of-type(3) .menuNum {
         opacity: 1;
         transition: all .7s;
     }
-
-    .owl-carousel .owl-stage-outer {
-        /*        height: 80vw;*/
-    }
-
-    /*
-    .casses {
-        width: 21.7%;
-        padding: 4vw 5.7vw 9.5vw 4.6vw;
-        font-size: 2vw;
-        right: 7%;
-    }
-*/
 
     .center .slide1:last-of-type,
     .center .slide2:last-of-type,

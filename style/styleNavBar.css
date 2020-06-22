@@ -6,7 +6,6 @@
     transition: all .25s;
     content: "";
     position: absolute;
-/*    left: 0;*/
     height: 3px;
     width: 43px;
     background-color: black;

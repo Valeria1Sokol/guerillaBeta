@@ -159,7 +159,7 @@ header {
     background-image: url(../img/maintext.png);
     background-repeat: no-repeat;
     background-size: 20%;
-    background-position: 60% 100%;
+    background-position: 53% 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,38 +190,11 @@ header {
 }
 
 .state .creative span {
-    padding: 0 3.4vw;
+    padding: 0 6.4vw;
 }
 
 
 @media all and (max-width:1024px) {
-
-    /*
-    .stateMobile {
-        width: 60%;
-    }
-
-    .david {
-        width: 40%;
-        background-size: 121%;
-        display: flex;
-        align-items: center;
-    }
-
-    .davidAnim {
-        width: 100%;
-        height: 76%;
-    }
-
-    .cleo {
-        background-position: 66% 57%;
-        width: 39%;
-    }
-
-    .cleoAnim {
-        background-position: 66% 57%;
-    }
-*/
 
     .moveinfo {
         display: none;
@@ -260,15 +233,15 @@ header {
     }
 
     .david {
-       width: 38%;
-    height: 60vw;
-    animation: david ease-in-out 1.4s;
-    animation-fill-mode: forwards;
-    background-position: 72%;
-    background-size: 127%;
-    position: absolute;
-    top: 11vw;
-    left: 8vw;
+        width: 38%;
+        height: 60vw;
+        animation: david ease-in-out 1.4s;
+        animation-fill-mode: forwards;
+        background-position: 72%;
+        background-size: 127%;
+        position: absolute;
+        top: 11vw;
+        left: 8vw;
     }
 
     .cleo {
@@ -288,14 +261,9 @@ header {
     .state {
         width: 100%;
         margin: 0vw 0 0;
+        background-size: 18%;
+        background-position: 52% 100%;
     }
-
-    /*
-    .state {
-        width: 100%;
-        background-image: url(../img/state_mobile.png);
-    }
-*/
 
     .stateMobile {
         margin: 0;
@@ -324,9 +292,7 @@ header {
     }
 
     .state .creative span {
-        padding: 0 5.4vw;
+        padding: 0 8.6vw;
     }
-
-
 
 }
