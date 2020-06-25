@@ -18,6 +18,10 @@ header .menu li:nth-of-type(5) .menuNum {
 
 .containerBox {
     background-image: url(../img/officesBG.png);
+    justify-content: flex-start;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .mainText {
