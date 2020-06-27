@@ -113,7 +113,7 @@ body.overflow {
 /*  BURGER
 ========================================== */
 .burger {
-    z-index: 100;
+    z-index: 110;
 }
 
 .burger span {
@@ -251,7 +251,7 @@ body.overflow {
 nav {
     background-color: #2a2a2a;
     position: fixed;
-    z-index: 99;
+    z-index: 105;
     top: 0;
     right: 0;
     height: 100%;
@@ -292,7 +292,7 @@ nav ul.main {
 }
 
 nav ul.main li {
-    margin-bottom: 20px;
+    /*    margin-bottom: 20px;*/
     -webkit-transform: translateX(40px);
     -moz-transform: translateX(40px);
     -ms-transform: translateX(40px);
@@ -322,7 +322,7 @@ nav ul.main li a span {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 90;
+    z-index: 104;
     width: 100%;
     height: 100%;
     -webkit-transition: all 0.3s ease-in-out;
@@ -337,4 +337,75 @@ nav ul.main li a span {
 .overlay.show {
     opacity: 0.8;
     visibility: visible;
+}
+
+@media all and (max-width:1080px) {
+    .burger {
+        width: 7.4vw;
+    }
+}
+
+@media all and (max-width:1024px) {
+    .burger {
+        width: 9.4vw;
+    }
+
+    .navBar ul li {
+        height: 12vw;
+    }
+
+    .navBar .name {
+        font-size: 4.5vw;
+    }
+
+    .navBarImg {
+        width: 8vw;
+    }
+
+    .navBarImg01 {
+        width: 5vw;
+    }
+
+    .navBarImg02 {
+        width: 7vw;
+    }
+
+    .navBarImg03 {
+        width: 6.5vw;
+    }
+
+    .navBarImg04 {
+        width: 4vw;
+    }
+
+    .navBar .num {
+        font-size: 3.3vw;
+    }
+
+    .burger span,
+    .burger span::before,
+    .burger span::after {
+        width: 4.2vw;
+        height: 0.3vw;
+    }
+}
+
+@media all and (max-width:425px) {
+    .burger {
+        width: 10.4vw;
+    }
+
+    .burger span,
+    .burger span::before,
+    .burger span::after {
+        width: 6.2vw;
+        height: 0.3vw;
+    }
+    .burger span::before {
+    top: -6px;
+}
+    .burger span::after {
+    top: 6px;
+}
+
 }

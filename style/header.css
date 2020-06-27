@@ -177,8 +177,9 @@ header .menuNum {
 
 .overlay-content {
     position: relative;
-    width: 80%;
-    margin-top: 10%;
+    width: 78%;
+    margin-top: 21%;
+    margin-left: 9%;
 }
 
 .overlay1 a {
@@ -203,7 +204,7 @@ header .menuNum {
     position: relative;
     left: 5px;
     text-decoration: none;
-    z-index: 10;
+    z-index: 102;
 }
 
 footer {
@@ -528,7 +529,7 @@ footer .copy {
 
     .container {
         background-color: black;
-        background: linear-gradient(90deg, black 6.7%, black 6.7%);
+        background: linear-gradient(90deg, #FAE74C 9.7%, black 6.7%);
     }
 
     .xAnimate {
@@ -552,6 +553,8 @@ footer .copy {
     header .logo {
         margin: 0;
         width: 39vw;
+        position: relative;
+        z-index: 102;
     }
 
     header .logo .guer {
@@ -564,7 +567,8 @@ footer .copy {
     }
 
     .containerBox {
-        width: 100%;
+        width: 91.3%;
+
     }
 
     header .menuText {
@@ -594,12 +598,29 @@ footer .copy {
     }
 
     footer .footerRight .logo {
-        width: 21.7vw;
-        margin: 0 0 2vw;
+        width: 29.7vw;
+        margin: 0 auto 3vw;
+    }
+
+    footer .footerRight {
+        align-items: center;
+    }
+
+    footer .footerRight .infoBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer .footerRight .infoBox .social {
+        margin: 0 0 4vw;
     }
 
     footer .footerRight .menu {
         width: 100%;
+        display: none;
     }
 
     footer .footerRight .menu li a {
@@ -649,6 +670,12 @@ footer .copy {
 
     footer .btnContainer .btnBox {
         width: 30vw;
+    }
+
+    .overlay-open {
+        height: 100%;
+        background-color: black;
+        top: 0;
     }
 
 }

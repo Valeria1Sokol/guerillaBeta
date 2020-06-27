@@ -115,7 +115,8 @@
 
 @media all and (max-width:1024px) {
     .mainText {
-        padding: 8.8vw 5.2vw;
+        padding: 8.8vw 9.2vw;
+        flex-direction: column;
     }
 
     .mainText .leftBox .use {
@@ -126,22 +127,36 @@
     }
 
     .mainText .leftBox {
-        width: 43%;
+        width: 100%;
     }
 
     .mainText .leftBox .imgText {
         width: 17.12vw;
-        margin: 9.6vw 0 2vw 3.5vw;
+        margin: 9.6vw auto 2vw;
     }
 
     .mainText .leftBox .tittle {
         font-size: 5.86vw;
+        margin: 0 auto 4.6vw;
     }
 
     .mainText .leftBox .btn {
         font-size: 2.8vw;
         height: 6.4vw;
+        width: 50%;
+        margin: 0 auto;
+
     }
+    .mainText .rightBox
+    {
+        width: 100%;
+    }
+    .mainText .rightBox .imgBox {
+    background-color: #333333;
+    width: 44%;
+    height: 34.74vw;
+    margin: 0 0 4.25vw;
+}
 
     .mainText .leftBox .num {
         width: 31vw;

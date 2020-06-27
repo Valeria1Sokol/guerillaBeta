@@ -521,15 +521,15 @@ header .menu li:nth-of-type(2) .menuNum {
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        width: 83%;
-        height: 90vw;
+        width: 88%;
+        height: 79vw;
         padding: 0;
         transform: rotate(-90deg);
         position: relative;
     }
 
     .owl-carousel.owl-drag .owl-item {
-        padding: 0vw 0vw 0 3.4vw;
+        padding: 0vw;
     }
 
     .sliderImg {
@@ -541,15 +541,19 @@ header .menu li:nth-of-type(2) .menuNum {
     .slider .sliderText {
         align-items: center;
         width: 100%;
-        height: 44%;
+        height: 46%;
         padding: 3vw 2.4vw 5vw;
-        margin: 2vw 0 0;
+        /*        margin: 2vw 0 0;*/
 
+    }
+
+    .kitty {
+        margin: 0vw auto 3vw;
     }
 
     .sliderH1 {
         font-size: 4.7vw;
-        margin: 0vw 0 4vw;
+        margin: 0vw 0 1vw;
     }
 
     .sliderH11 {
@@ -618,4 +622,35 @@ header .menu li:nth-of-type(2) .menuNum {
         top: 68%;
         left: 6%;
     }
+}
+
+@media (max-width: 768px) {
+    .slider {
+        width: 89%;
+    }
+
+    .sliderImg {
+        width: 41%;
+        margin: 0vw auto 1vw;
+    }
+
+    .kitty {
+        margin: 0vw auto 3vw;
+        width: 43%
+    }
+}
+
+@media (max-width: 425px) {
+    .sliderImg {
+        width: 42%;
+        margin: 0vw auto 1vw;
+    }
+
+    .kitty {
+        margin: 0vw auto 3vw;
+        width: 43%
+    }
+    .slider {
+   height: 78vw;
+}
 }

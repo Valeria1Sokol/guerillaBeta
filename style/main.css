@@ -18,7 +18,7 @@ ul li {
 
 header {
     position: relative;
-/*    z-index: 2;*/
+    /*    z-index: 2;*/
 }
 
 .containerBox {
@@ -221,7 +221,7 @@ header {
     .mainText {
         flex-direction: column-reverse;
         align-items: center;
-        padding: 8vw 2vw;
+        padding: 8vw 2vw 5vw 0;
         position: relative;
     }
 
@@ -244,8 +244,8 @@ header {
         background-position: 72%;
         background-size: 127%;
         position: absolute;
-        top: 11vw;
-        left: 8vw;
+        top: 14vw;
+        left: 3vw;
     }
 
     .cleo {
@@ -264,7 +264,7 @@ header {
 
     .state {
         width: 100%;
-        margin: 0vw 0 0;
+        margin: 0vw 3vw 0;
         background-size: 18%;
         background-position: 52% 100%;
     }
