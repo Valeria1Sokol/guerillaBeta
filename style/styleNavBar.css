@@ -401,11 +401,21 @@ nav ul.main li a span {
         width: 6.2vw;
         height: 0.3vw;
     }
+
     .burger span::before {
-    top: -6px;
-}
+        top: -6px;
+    }
+
     .burger span::after {
-    top: 6px;
-}
+        top: 6px;
+    }
+
+    .burger.clicked span::after {
+        -webkit-transform: translateY(-4px) rotate(-45deg);
+        -moz-transform: translateY(-4px) rotate(-45deg);
+        -ms-transform: translateY(-4px) rotate(-45deg);
+        -o-transform: translateY(-4px) rotate(-45deg);
+        transform: translateY(-4px) rotate(-45deg);
+    }
 
 }

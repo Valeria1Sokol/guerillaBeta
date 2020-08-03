@@ -384,8 +384,9 @@
         visibility: hidden;
     }
 }
+
 @keyframes topleft2 {
-  0% {
+    0% {
         width: 0;
         height: 0;
         padding-top: 0;
@@ -996,9 +997,10 @@
         opacity: 1;
     }
 }
+
 @keyframes fadeInRight {
     from {
-        transform: translate3d(-300px,0,0);
+        transform: translate3d(-300px, 0, 0);
         opacity: 0;
     }
 
@@ -1007,6 +1009,7 @@
         opacity: 1
     }
 }
+
 @keyframes zoomIn {
     from {
         transform: scale(.6);
@@ -1018,4 +1021,5 @@
         opacity: 1;
     }
 }
+
 
